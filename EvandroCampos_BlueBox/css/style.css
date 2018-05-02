@@ -1,0 +1,185 @@
+html body header {
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	padding: 3vw 14vw 3vw 12vw;
+}
+html body header h1 {
+	color: #31333e;
+	font-family: "Trebuchet MS";
+	font-weight: 800;
+	font-size: 2.2vw;
+}
+html body header ul {
+	list-style-type: none;
+}
+html body header li a{
+	text-decoration: none;
+	color: grey;
+	font-family: "Arial";
+	font-weight: bold;
+}
+
+html body header li a.about{
+	border-right-width: 1px;	/*....define a espessura da borda direita*/
+ 	border-right-style:	solid;/*....define a estilo da borda direita*/
+ 	border-right-color:	grey;/*....define a cor da borda direita*/
+ 	padding: 0vw 1vw 0vw 0vw;
+}
+html body header li a.services{
+	border-right-width: 1px;	/*....define a espessura da borda direita*/
+ 	border-right-style:	solid;/*....define a estilo da borda direita*/
+ 	border-right-color:	grey;/*....define a cor da borda direita*/
+ 	padding: 0vw 1vw 0vw 1vw;
+ 	color: #63c4f1;
+}
+html body header li a.works{
+	border-right-width: 1px;	/*....define a espessura da borda direita*/
+ 	border-right-style:	solid;/*....define a estilo da borda direita*/
+ 	border-right-color:	grey;/*....define a cor da borda direita*/
+ 	padding: 0vw 1vw 0vw 1vw;
+}
+html body header li a.blog{
+	border-right-width: 1px;	/*....define a espessura da borda direita*/
+ 	border-right-style:	solid;/*....define a estilo da borda direita*/
+ 	border-right-color:	grey;/*....define a cor da borda direita*/
+ 	padding: 0vw 1vw 0vw 1vw;
+}
+html body header li a.contact{
+ 	padding: 0vw 1vw 0vw 1vw;
+}
+html body section.note-e-celular{
+	background: #656773;
+}
+html body section.note-e-celular h2 {
+	padding: 4vw 12vw 4vw 32vw;
+	color: white;
+	font-size: 2.5vw;
+	font-family: "Trebuchet MS";
+	font-weight: 800;
+
+}
+html body section.note-e-celular img {
+	padding: 0vw 0vw 0vw 26vw;
+	color: white;
+	font-size: 2vw;
+}
+html body section.icones{
+	display: flex;
+	margin: 5vw 12vw 0vw 12vw;
+	text-align: center;
+	padding: 0vw 0vw 5vw 0vw;
+}
+html body section.icones li h2{
+	color: grey;
+	font-size: 2vw;
+	font-family: "Trebuchet MS";
+	padding: 2vw 0vw 2vw 0vw;
+}
+html body section.icones li p {
+	line-height: 1.5;
+	font-size: 1.1vw;
+	font-family: "Trebuchet MS";
+	margin: 1vw 1vw 1vw 1vw;
+}
+html body section.icones li a {
+	text-decoration: none;
+	color: #63c4f1;
+	font-size: 1vw;
+	font-family: "Trebuchet MS";
+	font-weight: 600;
+}
+html body section.our_works {
+	padding: 4vw 0vw 0vw 12vw;
+	background: #DEDEE0;
+}
+html body section.our_works h2 {
+	font-size: 2vw;
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+	margin: 1vw 1vw 1vw 0vw;
+	color: #656A6B;
+}
+html body section.our_works div {
+	padding: 0vw 0vw 6vw 0vw;
+}
+html body section.our_works div ul li {
+	margin: none;
+}
+html body section.clients {
+	padding: 0vw 0vw 6vw 12vw;
+}
+html body section.clients h2 {
+	font-size: 2vw;
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+	color: #656A6B;
+	padding: 3vw 0vw 2vw 0vw;
+}
+html body section.clients li img{
+	padding: 0vw 8vw 0vw 0vw; 
+}
+html body section.clients li a {
+	padding: 1vw 3vw 1vw 3vw;
+	background: #2cc4f5;
+	border-radius: 10px;
+	color: white;
+	font-size: 1.4vw;
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+	text-decoration: none;
+}
+html body footer {
+	background: #393939;
+	padding: 2vw 12vw 10vw 12vw;
+}
+html body footer div {
+	display: flex;
+	justify-content: space-between;
+} 
+html body footer div li a {
+	text-decoration: none;
+	color: white;
+	font-size: 1vw;
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+}
+html body footer div li a.home {
+	border-right-width: 1px;	/*....define a espessura da borda direita*/
+ 	border-right-style:	solid;/*....define a estilo da borda direita*/
+ 	border-right-color:	white;/*....define a cor da borda direita*/
+ 	padding: 0vw 1vw 0vw 0vw;
+}
+html body footer div li a.about {
+	border-right-width: 1px;	/*....define a espessura da borda direita*/
+ 	border-right-style:	solid;/*....define a estilo da borda direita*/
+ 	border-right-color:	white;/*....define a cor da borda direita*/
+ 	padding: 0vw 1vw 0vw 1vw;
+}
+html body footer div li a.services {
+	border-right-width: 1px;	/*....define a espessura da borda direita*/
+ 	border-right-style:	solid;/*....define a estilo da borda direita*/
+ 	border-right-color:	white;/*....define a cor da borda direita*/
+ 	padding: 0vw 1vw 0vw 1vw;
+}
+html body footer div li a.work {
+	border-right-width: 1px;	/*....define a espessura da borda direita*/
+ 	border-right-style:	solid;/*....define a estilo da borda direita*/
+ 	border-right-color:	white;/*....define a cor da borda direita*/
+ 	padding: 0vw 1vw 0vw 1vw;
+}
+html body footer div li a.blog {
+	border-right-width: 1px;	/*....define a espessura da borda direita*/
+ 	border-right-style:	solid;/*....define a estilo da borda direita*/
+ 	border-right-color:	white;/*....define a cor da borda direita*/
+ 	padding: 0vw 1vw 0vw 1vw;
+}
+html body footer div li a.contact {
+	padding: 0vw 0vw 0vw 1vw;
+}
+html body footer p {
+	color: white;
+	font-size: 1vw;
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+}
