@@ -1,0 +1,159 @@
+
+body header div.opcoes{
+	display: flex;
+	justify-content: space-between;
+	color: #7e828b;
+}
+body header div h1{
+	font-size: 2vw;
+	margin: 2vw 1vw 2vw 18vw;
+}
+body header div ul{
+	display: flex;
+	margin: 1.5vw 11vw 1vw 1vw;
+}
+body header div ul li{
+	margin: 1vw 1.5vw 1vw 1vw;
+	font-size: 1vw;
+}
+body header div ul li a{
+	text-decoration: none;
+	color:#676c70;;
+}
+body header div ul li a.azul{
+	background: #0EC0DE;
+	color: white;
+	padding: 0.90vw 2.75vw 0.90vw 2.75vw;
+	border-radius: 30px;
+}
+
+body header div.foto{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../img/foto_banner.jpg");
+	width: auto;
+	height: 600px;
+	color: white;
+}
+
+body header div.foto h2.missao{
+	font-size: 3vw;
+	text-align: center;
+	padding: 29vw 1vw 1vw 1vw;
+}
+body header div.foto p{
+	text-align: center;
+	margin: 1vw 17vw 1vw 17vw;
+	font-size: 1.75vw;
+}
+
+/*fim do header*/
+/*Section Sobre*/
+body section.sobre {
+	text-align: center;
+}
+
+body section.sobre h2{
+	color: #0EC0DE;
+	font-size: 3vw;
+	padding: 5vw 0vw 0vw 0vw;
+}
+body section.sobre p{
+	font-size: 1.75vw;
+	margin: 1vw 17vw 5vw 17vw;
+}
+/*fim da section Sobre*/
+/*inicio da section Team*/
+
+/*fim da section Team*/
+body section.time{
+	background: #0EC0DE;
+	text-align: center;
+	color: white;
+}
+body section.time h2{
+	font-size: 3vw;
+	padding:  4vw 1vw 7vw 1vw;
+}
+
+body section.time ul{
+	display: flex;
+	justify-content: center;
+}
+body section.time ul li{
+	margin: 1vw 1vw 1vw 1vw;
+}
+body section.time ul li p.negrito{
+	font-size: 1.5vw;
+}
+body section.time ul li img{
+	border-radius: 100px;
+}
+
+body section.time p.work{
+	margin: 7vw 1vw 1vw 1vw;
+	padding: 1vw 1vw 6vw 1vw;
+}
+body section.time p.work a{
+	color:  white;
+	text-decoration: none;
+	background:  #0EC0DE;
+	border-radius: 30px;
+	border: 2px solid white;
+	padding: 1vw 2vw 1vw 2vw;
+
+}
+
+body section.mapa {
+	background-image: url("../img/mapa.jpg");
+	width: auto;
+	height: 600px;
+	margin: -1vw 0vw 0vw 0vw;
+}
+
+body footer{
+	background: #454A4E;
+}
+body footer div{
+	display: flex;
+	justify-content: space-between;
+}
+
+body footer ul.opcoes{
+	display: flex;
+	margin: 0 0 0 17.5vw;
+}
+body footer ul.opcoes li{
+	margin: 2.5vw 1vw 1vw 1vw;
+	font-size: 1vw;
+}
+body footer ul.opcoes li a{
+	color: #d1d6dc;
+	text-decoration: none;
+}
+
+body footer ul.logos{
+	display: flex;
+	margin: 1vw 10.5vw 1vw 15vw;
+}
+
+body footer ul.logos li{
+	margin: 0.75vw 1vw 1vw 0;
+	font-size: 1vw;
+}
+
+body footer hr{
+	margin: 0vw 11.5vw 0vw 18.5vw;
+}
+
+body footer ul.termos{
+	display: flex;
+	margin: 0vw 0vw 0vw 56vw;
+	
+}
+body footer ul.termos li{
+	margin: 1vw 1vw 1vw 1vw;
+}
+body footer ul.termos li a{
+	color: #676c70;
+	text-decoration: none;
+}
+

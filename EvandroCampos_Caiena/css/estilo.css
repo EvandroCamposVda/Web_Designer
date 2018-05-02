@@ -1,0 +1,52 @@
+header div {
+	display: flex;
+	justify-content: space-between;
+}
+
+header div h1 {
+	padding: 2vw 2vw 2vw 16vw;
+	font-size: 2.3vw;
+	color: #80848D;
+}
+
+header div ul {
+	display: flex;
+	padding: 2vw 15vw 1vw 3vw;
+
+}
+
+header div ul li {
+	padding: 1.2vw 1.2vw 1.2vw 1.2vw;
+}
+
+header div ul li a {
+	text-decoration: none;
+	color: #80848D;
+}
+
+header div ul li.singin {
+	background: #0EC0DE;
+	border-radius: 30px;
+}
+
+header div ul li.singin a {
+	padding: 0vw 2vw 0vw 2vw;
+	color: white;
+}
+
+section.ourMission {
+	background-image: url("../img/foto_banner.jpg");
+	width: auto;
+	height: 600px;
+	color: white;
+	text-align: center;
+}
+
+section.ourMission h1 {
+	padding: 27vw 2vw 1vw 2vw;
+	font-size: 3vw;
+}
+section.ourMission p {
+	font-size: 1.5vw;
+	margin: 1vw 15vw 1vw 15vw;
+}
