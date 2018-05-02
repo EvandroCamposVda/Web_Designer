@@ -1,0 +1,4 @@
+src - dados para download - pdf - planilhas -etc.
+js - scripts
+img - imagens do site
+css - todos os efeitos do site 
