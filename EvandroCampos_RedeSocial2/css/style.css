@@ -1,0 +1,137 @@
+html body {
+	background: grey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+html body section.section1 {
+	background: white;
+	text-align: center;
+	margin: 10vw 2vw 0vw 0vw;
+	padding: 1vw 1vw 5vw 1vw;
+	width: 350px;
+}
+html body section.section1 img {
+	padding: 1vw 1vw 1vw 1vw;
+	border-radius: 200px;
+}
+html body section.section1 h1 {
+	color: #475965;
+	font-size: 2vw;
+	padding: 1vw 0vw 1vw 0vw;
+}
+html body section.section1 div {
+	width: 350px;
+}
+html body section.section1 div p {
+	color: #7f909b;
+	text-align: center;
+	font-size: 1.5vw;
+	padding: 1vw 1vw 3vw 1vw;
+	margin: 0;
+}
+html body section.section1 a{
+	text-decoration: none;
+	color: white;
+	background: #21b8c6;
+	padding: 1vw 3vw 1vw 3vw;
+	border-radius: 50px;
+}
+
+html body div.direito {
+	margin: 11vw 1vw 1vw 1vw;
+}
+html body div.direito section.section2{
+	display: flex;
+	background: #fe7a7a;
+	justify-content: center;
+	padding: 1.9vw 4.9vw 1.9vw 7.9vw;
+}
+html body div.direito section.section2 h1 {
+	font-size: 7vw;
+	color: white;
+}
+html body div.direito section.section2 div {
+	padding: 1vw 1vw 1vw 0vw;
+}
+html body div.direito section.section2 div p.am {
+	color: pink;
+}
+html body div.direito section.section2 div p.pm {
+	color: white;
+}
+html body div.direito section.section3 {
+	display: flex;
+	/*padding: 7.5vw 2vw 7.5vw 1vw;*/
+	background: white;
+}
+html body div.direito section.section3 div.today  {
+	text-align: center;
+	background: white;
+	padding: 2vw 1vw 2vw 2vw;
+	border-right-width: 1px;	/*....define a espessura da borda direita*/
+ 	border-right-style:	solid;/*....define a estilo da borda direita*/
+ 	border-right-color:	grey;/*....define a cor da borda direita*/
+ 	height: 300px;
+}
+html body div.direito section.section3 div.today h1 {
+	color: #e66b6b;
+	font-size: 2vw;
+	margin: 5vw 0vw 0vw 0vw;
+}
+html body div.direito section.section3 div.today img {
+	padding: 1vw 1vw 1vw 1vw;
+}
+html body div.direito section.section3 div.today p {
+	color: #989d89;
+	font-size: 1.6vw
+}
+
+html body div.direito section.section3 div.tue  {
+	text-align: center;
+	background: white;
+	padding: 2vw 1vw 2vw 1vw;
+	border-right-width: 1px;	/*....define a espessura da borda direita*/
+ 	border-right-style:	solid;/*....define a estilo da borda direita*/
+ 	border-right-color:	grey;/*....define a cor da borda direita*/
+}
+html body div.direito section.section3 div.tue h1 {
+	color: #e66b6b;
+	font-size: 2vw;
+	margin: 5vw 0vw 0vw 0vw;
+}
+html body div.direito section.section3 div.tue img {
+	padding: 1vw 1vw 1vw 1vw;
+}
+html body div.direito section.section3 div.tue p {
+	color: #989d89;
+	font-size: 1.6vw
+}
+html body div.direito section.section3 div.wed  {
+	text-align: center;
+	background: white;
+	padding: 2vw 1vw 2vw 1vw;
+
+}
+html body div.direito section.section3 div.wed h1 {
+	color: #e66b6b;
+	font-size: 2vw;
+	margin: 5vw 0vw 0vw 0vw;
+}
+html body div.direito section.section3 div.wed img {
+	padding: 1vw 1vw 1vw 1vw;
+}
+html body div.direito section.section3 div.wed p {
+	color: #989d89;
+	font-size: 1.6vw
+}
+
+
+
+
+
+
+
+
+
+
