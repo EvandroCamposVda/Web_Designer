@@ -1,0 +1,126 @@
+html body {
+	background: #bdbdbd;
+}
+html body div.principal {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+html body section.direita{
+	background: white;
+	padding: 1.5vw 1.5vw 1.5vw 1.5vw;
+}
+html body section.direita h1{
+	text-align: center;
+}
+html body section.direita ul{
+	display: flex;
+	text-align: center;	
+}
+html body section.direita ul li.twitter img{
+	background: #5bc9ee;
+	margin: 1vw 1vw 1vw 1vw;
+}
+html body section.direita ul li.facebook img{
+	background: #4d6299;
+	margin: 1vw 1vw 1vw 0vw;
+}
+html body section.direita ul li.dribbble img{
+	background: #ee5b92;	
+	margin: 1vw 1vw 1vw 0vw;
+}
+
+html body section.direita ul li.twitter div.twitter{
+	background: #5bc9ee;
+	border-radius: 100px;
+	margin: 1vw;
+}
+html body section.direita ul li.facebook div.facebook img{
+	background: #4d6299;
+	border-radius: 100px;
+	margin: 1vw;
+	padding: 1vw;
+}
+html body section.direita ul li.dribbble div.dribbble img{
+	background: #ee5b92;
+	border-radius: 100px;
+	margin: 1vw;
+	padding: 1vw;
+}
+html body section.direita h1 {
+	color: #a19fa0;
+	font-size: 1.8vw;
+}
+html body section.direita ul li.twitter p{
+	color: #a19fa0;
+	font-size: 1.4vw;
+}
+html body section.direita ul li.facebook p{
+	color: #a19fa0;
+	font-size: 1.4vw;
+}
+html body section.direita ul li.dribbble p{
+	color: #a19fa0;
+	font-size: 1.4vw;
+}
+html body section.esquerda {
+	background: white;
+	margin: 10vw 10vw 10vw 10vw;
+	padding: 0vw 2vw 0vw 0vw;
+}
+html body section.esquerda li.twitter {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+html body section.esquerda li.twitter h1 {
+	font-size: 4vw;
+	color: #a19fa0
+}
+html body section.esquerda li.twitter p {
+	color: #a19fa0
+}
+html body section.esquerda li.twitter div.img img {
+	background-color: #5bc9ee;
+	padding: 1vw 1vw 1vw 1vw;
+	margin: 0vw 4vw 0vw 0vw;
+}
+html body section.esquerda li.facebook {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+html body section.esquerda li.facebook h1 {
+	font-size: 4vw;
+	color: #a19fa0;
+	margin: 0vw 1.2vw 0vw 0vw;
+}
+html body section.esquerda li.facebook p {
+	color: #a19fa0;
+}
+html body section.esquerda li.facebook div.img img {
+	background-color: #4d6299;
+	padding: 1vw 1vw 1vw 1vw;
+	margin: 0vw 2vw 0vw 0vw;
+}
+html body section.esquerda li.dribbble {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+html body section.esquerda li.dribbble h1 {
+	font-size: 4vw;
+	color: #a19fa0;
+
+}
+html body section.esquerda li.dribbble p {
+	color: #a19fa0;
+}
+html body section.esquerda li.dribbble div.img img {
+	background-color: #ee5b92;
+	padding: 1vw 1vw 1vw 1vw;
+	margin: 0vw 2vw 0vw 0vw;
+	border-color: #ee5b92;
+}
+html body section.esquerda li.dribbble 
