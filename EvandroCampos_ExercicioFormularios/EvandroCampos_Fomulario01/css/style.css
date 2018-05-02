@@ -1,0 +1,76 @@
+html body {
+	background: #c1bdba;
+	justify-content: center;
+}
+
+html body section{
+	margin: 5vw 5vw 5vw 30vw;
+}
+
+body section form{
+	background: #24323d;
+	width: 450px;
+	height: 500px;
+	text-align: center;
+}
+
+html body section form ul{
+	justify-content: center;
+	display: flex;
+	padding: 3vw 2vw 2vw 2vw;
+}
+
+html body section form input{
+	background: #24323d;
+	height: 35px;
+	font-size: 1.2vw;
+}
+
+html body section form ul li input{
+	height: 50px;
+	width: 185px;
+
+}
+
+html body section form legend{
+	color: white;
+	font-size: 2vw;
+	padding: 1vw 2vw 2vw 2vw;
+}
+
+html body section form input.cadastro{
+	background: #1ab186;
+	color: white;
+	font-weight: bold;
+	border:none;
+}
+
+html body section form input.login{
+	background: #435259;
+	color: #879393;
+	font-weight: bold;
+	border:none;
+}
+
+html body section form input{
+	border-color: #7c8a93;
+}
+
+html body section form input.grande{
+	width: 362px;
+	height: 35px;
+	font-size: 1.2vw;
+	margin: 1vw 1vw 1vw 1vw;
+	border-color: #7c8a93;
+}
+
+html body section form input.iniciar{
+	background: #1ab186;
+	color: white;
+	width: 362px;
+	height: 70px;
+	font-size: 2vw;
+	margin: 2vw;
+	font-weight: bold;
+	border:none;
+}

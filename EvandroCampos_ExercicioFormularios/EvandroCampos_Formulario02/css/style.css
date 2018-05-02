@@ -1,0 +1,41 @@
+body {
+	background: #0e0e0e;
+	
+}
+
+body section {
+	display: flex;
+	justify-content: center;
+}
+
+body section div.formulario{
+	background: white;
+	width: 460px;
+	height: 650px;
+	color: #c1c1c1;
+}
+
+body section div.formulario form{
+	margin: 2vw 2vw 2vw 2vw;
+}
+
+body section div.formulario form fieldset input{
+	margin: 1vw 1vw 1vw 0vw;
+	width: 300px;
+	height: 35px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+}
+
+body section div.formulario form input.enviar{
+	padding: 1vw 3vw 1vw 3vw;
+	background: black;
+	color: white;
+	border-radius: 30px;
+	font-weight: bold;
+	font-size: 1.2vw;
+}
+body section div.formulario form a{
+	color: #c1c1c1;
+}
