@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="revisão do conteúdo">
+	<meta name="keywords" content="revisão html">
+	<meta name="Author" content="Evandro Campos">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<title>Revisão</title>
+</head>
+<body>
+
+	<header>
+		<h1>Revisão</h1>
+	</header>
+
+<section>
+	<h2>Criando âncoras</h2>
+	<nav>
+        <ol>
+        	<li><a href="#Estrutura-Geral">Estrutura Geral</a></li>
+        	<li><a href="#Figura-e-Imagem">Figura e Imagem</a></li>
+        	<li><a href="#Links">Links</a></li>
+        	<li><a href="#Listas">Listas</a></li>
+        	<li><a href="#Tabelas">Tabelas</a></li>
+        	<li><a href="#Figura-e-Imagem">Imagem</a></li>
+        	<li><a href="#Ficha-Técnica">Ficha Técnica</a></li>
+        </ol>
+	</nav>
+</section>
+
+<section id="Estrutura-Geral">
+	<h2>Estrutura Geral</h2>
+
+	<ul>
+		<li>Observe onde os arquivos são salvos</li>
+		<li>Voce entende o fato de relaçao entre as tags ?
+			<ul>
+				<li>Posso criar uma lista dentro de uma lista ?</li>
+				<li>Sim, se eu respeitar a relação de paternidade !</li>
+			</ul>
+		</li>
+		<li>Ao iniciar tudo já devo organizar as pastas do meu projeto e salvar os arquivos nos locais corretos</li>
+		<li>Mover os arquivos de lugar causam sérios problemas</li>
+		<li>Eu preciso saber criar âncoras dentro da página</li>
+		<li>Mostar a tag nav</li>
+		<li>Preciso criar comentários nos fins da seção mostrar notação #id</li>
+		<li>Por convenção escreva todas as tags com letras minísculas</li>
+		<li>Lembre de colocar as metatags no cabeçalho da página</li>
+		<li>Mostrar como otimizar a dupliucação de elementos</li>
+	</ul>
+</section><!--end#Estrutura-Geral -->
+	
+<section id="Figura-e-Imagem">
+	<h2>Utilização de Figure em Imagem</h2>
+	<figure>
+		<img src="img/guitarra.jpg" title="Guitarra Ibanez">
+		<figcaption>Guitarra Ibanez</figcaption>
+	</figure>
+</section><!--End#Figura-e-Imagem-->
+
+<section id="Links">
+	<h2>Utilização de Links</h2>
+	<ul>
+		<li>
+			<p>Links podem ser escritos dentro de parágrafos</p>
+			<p><a href="https://www.google.com.br">Eu vou pro Google</a></p>
+			<p>Mas podem ter filhos de ul ?</p>
+		</li>
+
+		<li>Eles podem ter várias funções
+			<ul>
+				<li>Englobar Imagens</li>
+				<li>Levar a página externas</li>
+				<li>Mas também podem levar a páginas locais</li>
+				<li>Podem servir para download de <a href="img/guitarra.jpg" download="">Imagem</a> <a href="src/senhas.pdf" download=""> Texto</a></li>
+				<li>Mas se o browser conseguir o arquivo ele é mostrado na própria janela</li>
+			</ul>
+		</li>
+	</ul>
+</section><!--End#Links-->
+
+<section id="Listas">
+	<h2>Listas</h2>
+	<ul>
+		<li>Quais os tipos mesmo ?</li>
+		<li>Existem mais atributos</li>
+	</ul>
+
+	<ol start="5">
+		<li>Ordenada 1</li>
+		<li>Ordenada 2</li>
+		<li>Ordenada 3</li>
+	</ol>
+
+	<ol type="A">
+		<li>Ordenada 4</li>
+		<li>Ordenada 5</li>
+		<li>Ordenada 6</li>
+	</ol>
+
+	<ol reversed="1">
+		<li>Ordenada 7</li>
+		<li>Ordenada 8</li>
+		<li>Ordenada 9</li>
+	</ol>
+
+	<ul>
+		<li>Não - Ordenada 1</li>
+		<li>Não - Ordenada 2</li>
+		<li>Não - Ordenada 3</li>
+		<li>Não - Ordenada 4</li>
+		<li>Não - Ordenada 5</li>
+		<li>Não - Ordenada 6</li>
+		<li>Não - Ordenada 7</li>
+		<li>Não - Ordenada 8</li>
+		<li>Não - Ordenada 9</li>
+	</ul>
+</section><!--End#Listas-->
+
+<section id="Tabelas">
+	<h2>Tabelas</h2>
+	<ul>
+		<li>Quais são as tags de tabela ?</li>
+			<ul>
+				<li>table -	Define uma tabela</li>
+				<li>th - define um cabeçalho de tabela</li>
+				<li>tr - Define uma linha de tabela</li>
+				<li>td - Define uma célula de tabela</li>
+				<li>caption - Define um título de tabela</li>
+				<li>colgroup - Define um grupo de colunas de tabela</li>
+				<li>col - Define os valores de atributo para uma ou mais colunas em uma tabela</li>
+			</ul>
+		<li>Que tal criarmos uma aqui ?</li>
+	</ul>
+
+	<table border="2">
+		<thead>
+		<tr>
+			<th>Nome</th>
+			<th>Descrição</th>
+			<th>Preço</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr> 
+			<td>Smartphone</td>
+			<td>Motorola g2 verde</td>
+			<td>R$980,00</td>
+		</tr>
+
+		<tr>
+			<td>Monitor</td>
+			<td>Monitor LG 24 Polegadas</td>
+			<td>R$1250,00</td>
+		</tr>
+
+		<tr>
+			<td>Fone de Ouvido</td>
+			<td>Fone Samsung</td>
+			<td>R$25,00</td>
+		</tr>
+
+		<tr>
+			<td>Mause Gamer</td>
+			<td>Mauser Razer</td>
+			<td>R$350,00</td>
+		</tr>
+		</tbody>
+	</table>
+</section><!--End#Tabelas-->
+
+<footer id="Ficha-Técnica">
+	<p>Alguns direitos reservados 2017 - Desenvolvido por <a href="curriculo/curriculo.html">Evandro Campos</a></p>
+</footer><!--End#Ficha-Técnica-->
+
+</body>
+</html>
