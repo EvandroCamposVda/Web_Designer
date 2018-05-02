@@ -1,0 +1,210 @@
+html body header {
+	background: #39A38F;
+	padding: 0vw 0vw 3vw 0vw;
+}
+html body header h1 {
+	padding: 5vw 0vw 0vw 13vw;
+	color: white;
+	font-size: 5vw;
+	font-family: arial;
+}
+html body header h2 {
+	border-bottom: 1px black solid;
+	border-color: white;
+	padding: 0vw 0vw 1vw 0vw;
+	color: white;
+	font-size: 2.7vw;
+	margin: 0vw 65vw 0vw 13vw;
+	font-family: arial;
+}
+html body section.section1 div.div1 {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px grey solid;
+}
+html body section.section1 div.div1 div.roran {
+	display: flex;
+	font-size: 3vw;
+	font-family: arial;
+	padding: 1vw 0vw 1vw 13vw;
+}
+html body section.section1 div.div1 div.roran p.ponto {
+	color:  #39A38F;
+	font-size: 3vw;
+	font-family: arial;
+}
+html body section.section1 div.div1 ul {
+	display: flex;
+	padding: 1.7vw 5vw 1vw 0vw;
+}
+html body section.section1 div.div1 ul li a{
+	text-decoration: none;
+	color: #ACACAC;
+	padding: 1.7vw 3vw 1vw 0vw;
+	font-size: 1.2vw;
+	font-family: arial;
+}
+html body section.section1 div.div1 ul li a.home{
+	color: #6C6C6C;
+}
+html body section.section1 div.about{
+	text-align: center;
+}
+html body section.section1 div.about h2{
+	font-size: 3vw;
+	color: black;
+	padding: 3vw 0vw 1vw 0vw;
+	font-family: arial;
+}
+html body section.section1 div.about h3{
+	font-size: 2.5vw;
+	color: #979797;
+	padding: 0vw 0vw 1vw 0vw;
+	font-family: arial;
+	border-bottom: 1px #979797 solid;
+	margin: 0vw 41vw 0vw 41vw;
+}
+html body section.section1 div.about p{
+	font-size: 1.2vw;
+	color: #979797;
+	padding: 3vw 0vw 2vw 0vw;
+	font-family: arial;
+	margin: 0vw 30vw 0vw 30vw;
+}
+html body section.section1 div.aboutImg{
+	padding: 0vw 0vw 3vw 0vw;
+}
+
+html body section.section1 div.aboutImg ul{
+	display: flex;
+	text-align: center;
+	margin: 0vw 3vw 0vw 2vw;
+}
+html body section.section1 div.aboutImg ul li{
+	margin: 0vw 9vw 0vw 9vw;
+}
+html body section.section1 div.aboutImg ul li div{
+	display: flex;
+	padding: 0vw 0vw 0vw 2.5vw;
+}
+html body section.section1 div.aboutImg ul li div h3.colors{
+	color: #39A38F;
+}
+html body section.section1 div.aboutImg ul li h3{
+	font-size: 1.2vw;
+	font-style: arial;
+	padding: 1vw 0vw 1vw 0vw;
+}
+html body section.section1 div.aboutImg ul li p{
+	font-size: 1.2vw;
+	font-style: arial;
+	color: #989898;
+}
+html body section.contact{
+	background: #39A38F;
+	padding: 2vw 2vw 2vw 2vw;
+	text-align: center;
+}
+html body section.contact h3{
+	padding: 4vw 0vw 0.5vw 0vw;
+	font-size: 3vw;
+	font-style: arial;
+	color: white;
+}
+html body section.contact h4{
+	font-size: 1.5vw;
+	font-style: times;
+	color: white;
+}
+
+html body section.contact1 {
+	background: #39A38F;
+	padding: 2vw 9vw 2vw 9vw;
+}
+html body section.contact1 div.pagina {
+	display: flex;
+	background: white;
+	margin: 5vw 5vw 5vw 5vw;
+	justify-content: space-between;
+}
+html body section.contact1 div.pagina div.contact form{
+	padding: 2vw 0vw 2vw 3vw;
+}
+
+html body section.contact1 div.pagina div.contact form input{
+	padding: 0.4vw 20vw 0.4vw 0vw;
+	margin: 0.5vw 0vw 0.5vw 0vw;
+}
+html body section.contact1 div.pagina div.contact form input.mensagem{
+	padding: 0vw 20vw 12vw 0vw;
+	margin: 0.5vw 0vw 0.5vw 0vw;
+}
+html body section.contact1 div.pagina div.contact form label{
+	font-size: 1.2vw;
+	font-style: arial;
+	color: #6D6D6D;
+}
+
+html body section.contact1 div.pagina div.contact button{
+	background: #39A38F;
+	color: white;
+	font-style: arial;
+	font-size: 1.3vw;
+	padding: 0.8vw 1.5vw 0.8vw 1.5vw;
+	margin: 1vw 0vw 0vw 0vw;
+}
+html body section.contact1 div.pagina div.contactInfo {
+	padding: 2vw 0vw 0vw 0vw;
+}
+html body section.contact1 div.pagina div.contactInfo h3 {
+	font-size: 2.5vw;
+	color: black;
+	font-style: arial;
+	padding: 0vw 0vw 2vw 0vw;
+	margin: 0vw 15vw 0vw 15vw;
+}
+html body section.contact1 div.pagina div.contactInfo div.p p {
+	font-size: 1.2vw;
+	color: #888888;
+	font-style: arial;
+	padding: 0vw 0vw 1vw 0vw;
+	margin: 0vw 15vw 0vw 15vw;
+}
+html body section.contact1 div.pagina div.contactInfo ul {
+	padding: 0vw 0vw 2vw 0vw;	
+}
+html body section.contact1 div.pagina div.contactInfo ul li {
+	padding: 1vw 1vw 1vw 15vw;
+	display: flex;
+}
+html body section.contact1 div.pagina div.contactInfo ul li div {
+	padding: 0.7vw 0vw 0vw 1vw;
+}
+html body section.contact1 div.pagina div.contactInfo ul li div p {
+	font-size: 1.4vw;
+	font-style: arial;
+	color: #7C7C7C;
+}
+html body footer {
+	display: flex;
+	justify-content: space-between;
+	background: #D8D8D8;
+	padding: 0vw 0vw 3vw 0vw;
+}
+html body footer p {
+	padding: 2vw 0vw 0vw 14vw;
+	font-style: arial;
+	color: #7C7C7C;
+}
+html body footer ul {
+	display: flex;
+	padding: 2vw 14vw 0vw 0vw;
+}
+html body footer ul li {
+	padding: 0vw 0.5vw 0vw 0.5vw;
+}
+
+
+
+
+
