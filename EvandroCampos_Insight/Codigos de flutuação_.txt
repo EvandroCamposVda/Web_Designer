@@ -1,0 +1,15 @@
+Centralização de conteudo
+
+text-align: center
+
+de elemento 
+*justify-content: center 
+**só usar com display: flex
+*widht+margin: 0 auto;
+
+Elemento um ao lado do outro
+
+*display: flex - no pai
+*display: inlene-block - no elemento 
+*float: left - no pai
+

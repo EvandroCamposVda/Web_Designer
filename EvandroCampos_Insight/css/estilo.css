@@ -1,0 +1,166 @@
+html body{
+	font-family: "Trebuchet MS";
+	color: white;
+}
+/*====Header =====*/
+body header{
+		background: #87509C;/*Cor de Fundo*/
+		padding: 4vw 12vw 12vw 12vw;
+}
+body header div {
+	display: flex;
+	justify-content: space-between;
+}
+body header a{
+	color: white;
+	text-decoration: none;
+}
+body header h1 {
+	background: url("../img/logo_insight.png") no-repeat;
+	width: 180px;
+	height: 34px;
+	text-indent: -500px;
+}
+body header div nav ul{
+	display: flex;	
+}
+body header div nav ul li{
+	margin: 0px 10px 15px 5px;
+	padding: 9px 12px 9px 18px;
+	font-size: 1vw;
+	font-style: arial
+}
+body header div nav ul li.atual { /* Modificando o dado Atual no caso o Home */
+	background: #643A79;
+	border-radius: 5px;
+}
+body header h2 {
+	font-size: 2.5vw;
+	text-align: center;
+	padding: 9vw 5vw 4vw 5vw;
+}
+body header p {
+	font-size: 1.2vw;
+	background: #EB7D4B;
+	text-align: center;
+	padding: 25px 40px 25px 40px;
+	width: 180px;
+	border-radius: 5px;
+	margin: 0 auto 0 auto;
+}
+body section.servicos {
+	background: #17C2A4;
+	padding: 4vw 12vw 12vw 12vw;
+	text-align: center;
+}
+body section.servicos h2{
+	font-size: 2.8vw;
+	text-align: center;
+	padding: 3vw 1vw 3vw 1vw;
+	letter-spacing: 3px; /*Controlando espaço entre letras*/
+}
+body section.servicos p {
+	text-align: center;
+	margin: 2vw 22vw 2vw 22vw;
+	font-size: 1vw;
+	font-weight: normal;
+}
+body section.servicos ul {
+	display: flex;
+}
+body section.servicos ul li h3{
+	font-size: 1.5vw;
+}
+body section.servicos ul li p {
+	margin: 2vw 2vw 2vw 2vw;
+}
+body section.portifolio {
+	background: #FFDD99;
+	color: black;
+	padding: 0vw 0vw 8vw 0vw;
+}
+body section.portifolio h2{
+	text-align: center;
+	padding: 6.9vw 3vw 1.5vw 3vw;
+	font-size: 2.5vw;
+	letter-spacing: 0.3vw;
+	color: #514D45;
+}
+body section.portifolio p{
+	text-align: center;
+	margin: 2vw 30vw 2vw 30vw;
+	font-size: 1.2vw;
+	font-weight: normal;
+	letter-spacing: 0.1px;
+	color: #514D45;
+}
+body section.portifolio ul {
+	text-align: center;
+	margin: 3vw 0vw 3.5vw 0vw;
+}
+body section.portifolio ul li{
+	display: inline-block;
+}
+body section.portifolio ul li a{
+	text-decoration: none;
+	color: #514D45;
+	background: #EBC985;
+	border-radius: 5px;
+	padding: 0.5vw 1.5vw 0.5vw 1.5vw;
+	font-size: 1.3vw;
+}
+
+body section.portifolio ul li a.all{
+	background-color: white;
+}
+
+body section.portifolio nav ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+body section.portifolio nav ul li {
+		margin: 2vw 2vw 2vw 7vw;	
+}
+
+body section.portifolio nav ul li p{
+	color: #514D45;
+	margin: 1vw 3vw 5vw 3vw;
+	font-size: 1.3vw
+}
+body section.portifolio p.carregarMais {
+	font-size: 1.2vw;
+	background: #17C2A4;
+	text-align: center;
+	padding: 25px 40px 25px 40px;
+	width: 180px;
+	border-radius: 5px;
+	margin: 0 auto 0 auto;
+}
+body section.portifolio p.carregarMais a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.2vw;
+}
+
+body footer {
+	background-color: #344B8E;
+}
+
+body footer ul {
+	display: flex;
+	justify-content: center;/*Colocar no centro quando possui um ao lado do outro */ 	
+
+}
+body footer ul li {
+	padding: 3.5vw 1.6vw 3.5vw 1.6vw;
+	text-align: center;
+}
+body footer ul li a{
+	text-decoration: none;
+	color: white;	
+	font-size: 1.5vw
+}
+body footer ul li a.twitter {
+	color: #30BAE7;
+}
